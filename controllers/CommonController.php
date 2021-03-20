@@ -32,7 +32,10 @@
         "membershipData" => $LayoutModel->getMembershipData(),
         "videoIntroduceData" => $LayoutModel->getVideoIntroduceData(),
         "blogData" =>  $LayoutModel->getBlogData(),
-        "detailScreen" => $detailScreen
+        "detailScreen" => $detailScreen,
+        "customerData" => $LayoutModel->getCustomerData(),
+        "slideData" => $LayoutModel->getSlideData(),
+        "galleryData" => $LayoutModel->getGalleryData()
       ];
       
 

@@ -21,5 +21,14 @@
     public function getBlogData(){
       return $this->select("site_post","*");
     }
+    public function getCustomerData(){
+      return $this->select("site_customer","*");
+    }
+    public function getSlideData(){
+      return $this->select("site_slide","*");
+    }
+    public function getGalleryData(){
+      return $this->select("site_gallery","*");
+    }
   }
 ?>

@@ -5,7 +5,7 @@
 					<li><i class="fa fa-envelope"></i><?php echo $introduceData[0]["site_email"]?></li>
 					<li><i class="fa fa-phone"></i><?php echo $introduceData[0]["site_phone"]?></li>
 				</ul>
-				<a class="header-book" href="#" title="">Book Now</a>
+				<a class="header-book" href="#" title="">Đặt lịch ngay</a>
 			</div>
 		</div>
 		<div class="menu-bar">
@@ -16,7 +16,9 @@
 						<ul>
 							<?php
 								foreach($menuiData as $value){
-									echo '<li><a href="'.BASE_URL.$value["menui_link"].'" title='.$value["menui_title"].'>'.$value["menui_name"].'</a></li>';
+									if($value["menui_id"] != "4"){
+										echo '<li><a href="'.BASE_URL.$value["menui_link"].'" title='.$value["menui_title"].'>'.$value["menui_name"].'</a></li>';
+									}
 								}
 							?>	
 						</ul>
@@ -25,7 +27,7 @@
 								<input type="text" placeholder="Enter Your Search Keyword" />
 								<button><i class="fa fa-search"></i></button>
 							</form>
-							<a href="#" title=""><img src="images/cart-icon.png" alt="" /><span>0</span></a>
+							<!-- <a href="#" title=""><img src="images/cart-icon.png" alt="" /><span>0</span></a> -->
 							<a class="search-btn" href="#" title=""><i class="fa fa-search"></i></a>
 						</div>
 					</nav>
@@ -46,7 +48,9 @@
 			<ul>
 				<?php
 					foreach($menuiData as $value){
-						echo '<li><a href="'.BASE_URL.$value["menui_link"].'" title='.$value["menui_title"].'>'.$value["menui_name"].'</a></li>';
+						if($value["menui_id"] != "4"){
+							echo '<li><a href="'.BASE_URL.$value["menui_link"].'" title='.$value["menui_title"].'>'.$value["menui_name"].'</a></li>';
+						}
 					}
 				?>	
 			</ul>

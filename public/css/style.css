@@ -3799,7 +3799,6 @@ form.newsletter button:hover{
 
 /*=============== Lemon PageTop ===================*/
 .lemon-pagetop {
-    background: transparent url("http://placehold.it/1600x310") no-repeat scroll 0 0 / cover ;
     float: left;
     padding: 145px 0 100px;
     position: relative;
@@ -6202,3 +6201,13 @@ form.newsletter button:hover{
     z-index: 1000;
 }
 
+.responsive-header >ul{
+    background-color: #0f9125;
+}
+.responsive-header >ul li {
+    text-transform: uppercase;
+}
+.review-slide>img{
+    width: 370px;
+    height: 370px;
+}

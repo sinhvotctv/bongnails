@@ -1,7 +1,7 @@
 <!-- Load Facebook SDK for JavaScript -->
 <footer>
   <div class="block blackish">
-    <div class="parallax still" data-velocity="-.05" style="background: rgba(0, 0, 0, 0) url(http://placehold.it/2442x1400) no-repeat 50% 0;"></div>
+    <div class="parallax still" data-velocity="-.05" style="background: rgba(0, 0, 0, 0) url(./public/images/banners/footer.jpg) no-repeat 50% 0;"></div>
     <div class="container">
       <div class="footer-widgets">
         <div class="row">
@@ -43,7 +43,9 @@
               <ul>
                 <?php
                   foreach($menuiiData as $value){
-                    echo '<li><a href="'.SERVICES_URL."/".$value["menuii_link"].'&id-main-service='.$value["menuii_id"].'" title="'.$value["menuii_title"].'">'.$value["menuii_name"].'</a></li>';
+                    if($value["menuii_id"] != 2){
+                      echo '<li><a href="'.SERVICES_URL."/".$value["menuii_link"].'&id-main-service='.$value["menuii_id"].'" title="'.$value["menuii_title"].'">'.$value["menuii_name"].'</a></li>';
+                    }
                   }
                 ?>
               </ul>

@@ -8,7 +8,7 @@
               <ul>
                 <li data-index="rs-1" data-transition="fade" data-slotamount="7"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000" data-title="Slide 1">
                   <!-- MAIN IMAGE -->
-                  <img   src="http://placehold.it/1600x837"  alt="khai trương tiệm nail"  data-bgposition="center center"  data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                  <img   src="./public/images/slides/slide-01.jpg"  alt="khai trương tiệm nail"  data-bgposition="center center"  data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
                   <!-- LAYER NR. 1 -->
                   <div class="tp-caption layer1 tp-resizeme" 
                   id="slide1-layer-1" 
@@ -56,7 +56,7 @@
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on" 
-                  data-elementdelay="0.05" style="font-size:16px;padding:20px 40px;letter-spacing:2px;">Treatmemts to Relax Your Body & Soul
+                  data-elementdelay="0.05" style="font-size:16px;padding:20px 40px;letter-spacing:2px;"><?php echo $introduceData[0]['site_slogan']?>
                   </div>
                   <!-- LAYER NR. 4 -->
                   <div class="tp-caption layer4 tp-resizeme" 
@@ -73,10 +73,10 @@
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on" 
-                  data-elementdelay="0.05" style="font-size:16px;line-height:30px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at odio odio. In ultrices<br/> massa tristique ullamcorper aliquet orci, egestas dapibus.
+                  data-elementdelay="0.05" style="font-size:16px;line-height:30px"><?php echo $slideData[0]["slide_decription"]?>
                   </div>
                   <!-- LAYER NR. 5 -->
-                  <a href="#" title="" class="tp-caption layer5 tp-resizeme" 
+                  <a href="<?php echo SERVICES_URL.'/'.'mong-tay-mong-chan&id-main-service=1'?>" title="" class="tp-caption layer5 tp-resizeme" 
                   id="slide1-layer-5" 
                   data-x="center" data-hoffset="" 
                   data-y="center" data-voffset="140" 
@@ -89,12 +89,12 @@
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on" 
-                  data-elementdelay="0.05" style="font-size:13px;padding:15px 75px 15px 35px;">More Feature<i class="fa fa-angle-double-right"></i>
+                  data-elementdelay="0.05" style="font-size:13px;padding:15px 75px 15px 35px;">Xem thêm<i class="fa fa-angle-double-right"></i>
                   </a>
                 </li>
                 <li data-index="rs-2" data-transition="fade" data-slotamount="7"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000" data-title="Slide 1">
                   <!-- MAIN IMAGE -->
-                  <img   src="http://placehold.it/1600x837"  alt=""  data-bgposition="center center"  data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                  <img   src="./public/images/slides/slide-02.jpg"  alt=""  data-bgposition="center center"  data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
                   <!-- LAYER NR. 1 -->
                   <div class="tp-caption layer1 tp-resizeme" 
                   id="slide2-layer-1" 
@@ -141,7 +141,7 @@
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on" 
-                  data-elementdelay="0.05" style="font-size:16px;letter-spacing:4px">Relax Your Body & Soul
+                  data-elementdelay="0.05" style="font-size:16px;letter-spacing:4px"><?php echo $introduceData[0]['site_slogan']?>
                   </div>
                   <!-- LAYER NR. 4 -->
                   <div class="tp-caption layer4 tp-resizeme" 
@@ -157,10 +157,10 @@
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on" 
-                  data-elementdelay="0.05" style="font-size:16px;line-height:30px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at odio odio. In ultrices<br/> massa tristique ullamcorper aliquet orci, egestas dapibus.
+                  data-elementdelay="0.05" style="font-size:16px;line-height:30px"><?php echo $slideData[2]['slide_decription']?>
                   </div>
                   <!-- LAYER NR. 5 -->
-                  <a href="#" title="" class="tp-caption layer5 tp-resizeme" 
+                  <a href="<?php echo SERVICES_URL.'/'.'uon-mi&id-main-service=3'?>" title="" class="tp-caption layer5 tp-resizeme" 
                   id="slide2-layer-5" 
                   data-x="center" data-hoffset="" 
                   data-y="center" data-voffset="140" 
@@ -173,12 +173,12 @@
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on" 
-                  data-elementdelay="0.05" style="font-size:13px;padding:15px 75px 15px 35px;">More Feature<i class="fa fa-angle-double-right"></i>
+                  data-elementdelay="0.05" style="font-size:13px;padding:15px 75px 15px 35px;">Xem thêm<i class="fa fa-angle-double-right"></i>
                   </a>
                 </li>
                 <li data-index="rs-3" data-transition="fade" data-slotamount="7"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000" data-title="Slide 1">
                   <!-- MAIN IMAGE -->
-                  <img   src="http://placehold.it/1600x837"  alt=""  data-bgposition="center center"  data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                  <img   src="./public/images/slides/slide-02.jpg"  alt=""  data-bgposition="center center"  data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
                   <!-- LAYER NR. 1 -->
                   <div class="tp-caption layer1 tp-resizeme" 
                   id="slide3-layer-1" 
@@ -228,7 +228,7 @@
                   data-splitin="chars"	 
                   data-splitout="none" 
                   data-responsive_offset="on" 
-                  data-elementdelay="0.05" style="font-size:16px;letter-spacing:4px">Relax Your Body & Soul
+                  data-elementdelay="0.05" style="font-size:16px;letter-spacing:4px"><?php echo $introduceData[0]['site_slogan']?>
                   </div>
                   <!-- LAYER NR. 4 -->
                   <div class="tp-caption layer4 tp-resizeme" 
@@ -245,10 +245,10 @@
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on" 
-                  data-elementdelay="0.05" style="font-size:16px;line-height:30px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at odio odio. In ultrices<br/> massa tristique ullamcorper aliquet orci, egestas dapibus.
+                  data-elementdelay="0.05" style="font-size:16px;line-height:30px"><?php echo $slideData[3]['slide_decription']?>
                   </div>
                   <!-- LAYER NR. 5 -->
-                  <a href="#" title="" class="tp-caption layer5 tp-resizeme" 
+                  <a href="<?php echo SERVICES_URL.'/'.'nail-box&id-main-service=4'?>" title="" class="tp-caption layer5 tp-resizeme" 
                   id="slide3-layer-5" 
                   data-x="center" data-hoffset="" 
                   data-y="center" data-voffset="140" 
@@ -262,97 +262,8 @@
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on" 
-                  data-elementdelay="0.05" style="font-size:13px;padding:15px 75px 15px 35px;">More Feature<i class="fa fa-angle-double-right"></i>
+                  data-elementdelay="0.05" style="font-size:13px;padding:15px 75px 15px 35px;">Xem thêm<i class="fa fa-angle-double-right"></i>
                   </a>
-                </li>
-                <li data-index="rs-4" data-transition="fade" data-slotamount="7"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000" data-title="Slide 1">
-                  <!-- MAIN IMAGE -->
-                  <img   src="http://placehold.it/1600x837"  alt=""  data-bgposition="center center"  data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
-                  <!-- LAYER NR. 1 -->
-                  <div class="tp-caption layer1 tp-resizeme" 
-                  id="slide4-layer-1" 
-                  data-x="0" data-hoffset="" 
-                  data-y="center" data-voffset="-120" 
-                  data-width="['auto','auto','auto','auto']"
-                  data-height="['auto','auto','auto','auto']"
-                  data-transform_idle="o:1;"
-                  data-transform_in="x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power4.easeInOut;" 
-                  data-transform_out="s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
-                  data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" 
-                  data-start="500" 
-                  data-splitin="chars" 
-                  data-splitout="none" 
-                  data-responsive_offset="on" 
-                  data-elementdelay="0.05" style="font-size:30px">Welcome to
-                  </div>
-                  <!-- LAYER NR. 2 -->
-                  <div class="tp-caption layer6 tp-resizeme" 
-                  id="slide4-layer-2" 
-                  data-x="0" data-hoffset="" 
-                  data-y="center" data-voffset="-80" 
-                  data-width="['auto','auto','auto','auto']"
-                  data-height="['auto','auto','auto','auto']"
-                  data-transform_idle="o:1;"
-                  data-transform_in="y:50px;opacity:0;s:1500;e:Power3.easeOut;" 
-                  data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" 
-                  data-start="1500" 
-                  data-splitin="none" 
-                  data-splitout="none" 
-                  data-responsive_offset="on" 
-                  data-elementdelay="0.05" style="font-size:40px">BÔNG <i>NAILS</i>
-                  </div>
-                  <!-- LAYER NR. 3 -->
-                  <div class="tp-caption layer3 tp-resizeme" 
-                  id="slide4-layer-3" 
-                  data-x="0" data-hoffset="" 
-                  data-y="center" data-voffset="-20" 
-                  data-width="['auto','auto','auto','auto']"
-                  data-height="['auto','auto','auto','auto']"
-                  data-transform_idle="o:1;"
-                  data-transform_in="z:0;rX:0deg;rY:0;rZ:0;sX:2;sY:2;skX:0;skY:0;opacity:0;s:1000;e:Power2.easeOut;" 
-                  data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" 
-                  data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" 
-                  data-start="1500" 
-                  data-splitin="none" 
-                  data-splitout="none" 
-                  data-responsive_offset="on" 
-                  data-elementdelay="0.05" style="font-size:16px;padding:15px 30px;letter-spacing:2px;">Relax Your Body & Soul	
-                  </div>
-                  <!-- LAYER NR. 4 -->
-                  <div class="tp-caption layer8 tp-resizeme" 
-                  id="slide4-layer-4" 
-                  data-x="0" data-hoffset="" 
-                  data-y="center" data-voffset="50" 
-                  data-width="['auto','auto','auto','auto']"
-                  data-height="['auto','auto','auto','auto']"
-                  data-transform_idle="o:1;"
-                  data-transform_in="z:0;rX:0deg;rY:0;rZ:0;sX:2;sY:2;skX:0;skY:0;opacity:0;s:1000;e:Power2.easeOut;" 
-                  data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" 
-                  data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" 
-                  data-start="1500" 
-                  data-splitin="none" 
-                  data-splitout="none" 
-                  data-responsive_offset="on" 
-                  data-elementdelay="0.05" style="font-size:16px;line-height:30px">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, <br /> consectetur, adipisci velit, sed quia non numquam eius. 
-                  </div>
-                  <!-- LAYER NR. 5 -->
-                  <a href="#" title="" class="tp-caption layer5 tp-resizeme" 
-                  id="slide4-layer-5" 
-                  data-x="0" data-hoffset="" 
-                  data-y="center" data-voffset="140" 
-                  data-width="['auto','auto','auto','auto']"
-                  data-height="['auto','auto','auto','auto']"
-                  data-transform_idle="o:1;"
-                  data-transform_in="z:0;rX:0deg;rY:0;rZ:0;sX:2;sY:2;skX:0;skY:0;opacity:0;s:1000;e:Power2.easeOut;" 
-                  data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" 
-                  data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" 
-                  data-start="1500" 
-                  data-splitin="none" 
-                  data-splitout="none" 
-                  data-responsive_offset="on" 
-                  data-elementdelay="0.05" style="font-size:13px;padding:15px 75px 15px 35px;">More Feature<i class="fa fa-angle-double-right"></i>
-                  </a>
-
                 </li>
               </ul>
             </div>
@@ -426,26 +337,30 @@
             <div class="variety-selector">
               <?php
                 foreach($videoIntroduceData as $value){
-                  $active = $value["video_acvite"] == 1 ? "active" : null;
-                  echo '<a class="'.$active.' url" href="#'.$value["video_alias"].'" title="'.$value["video_title"].'"><img src="'.VIDEOS_FOLDER.$value["video_alias"].'/'.$value["video_title_icon"].'" alt="'.$value["video_title"].'" />'.$value["video_icon"].'</a>';
+                  if($value["video_menuii_id"] != 2){
+                    $active = $value["video_acvite"] == 1 ? "active" : null;
+                    echo '<a class="'.$active.' url" href="#'.$value["video_alias"].'" title="'.$value["video_title"].'"><img src="'.VIDEOS_FOLDER.$value["video_alias"].'/'.$value["video_title_icon"].'" alt="'.$value["video_title"].'" />'.$value["video_icon"].'</a>';
+                  }
                 }
               ?>
             </div>
             <div class="vareity-carousel">
               <?php
                 foreach($videoIntroduceData as $value){
-                  echo '<div data-hash="'.$value["video_alias"].'" class="variety-slide">
-                          <div class="variety-text">
-                            <h4>'.$value["video_name"].'</h4>
-                            <strong>'.$value["video_price"].' <i>k/ '.$value["video_unit"].'</i></strong>
-                            <p>'.$value["video_introduce"].'</p>
-                            <a class="view-all" href="'.SERVICES_URL.'" title="'.$value["video_title"].'">Xem tất cả dịch vụ   <i class="fa fa-angle-double-right"></i></a>
-                          </div>
-                          <div class="variety-img lightbox">
-                            <img src="./public/videos/'.$value["video_alias"].'/'.$value["video_avatar"].'" alt="'.$value["video_title"].'" />
-                            <a href="./public/videos/'.$value["video_alias"].'/'.$value["video_linkvideo"].'" data-poptrox="vimeo,800x480" title=""><i class="fa fa-play"></i></a>
-                          </div>
-                        </div>';
+                  if($value["video_menuii_id"] != 2){
+                    echo '<div data-hash="'.$value["video_alias"].'" class="variety-slide">
+                            <div class="variety-text">
+                              <h4>'.$value["video_name"].'</h4>
+                              <strong>'.$value["video_price"].' <i>k/ '.$value["video_unit"].'</i></strong>
+                              <p>'.$value["video_introduce"].'</p>
+                              <a class="view-all" href="'.SERVICES_URL.'" title="'.$value["video_title"].'">Xem tất cả dịch vụ   <i class="fa fa-angle-double-right"></i></a>
+                            </div>
+                            <div class="variety-img lightbox">
+                              <img src="./public/videos/'.$value["video_alias"].'/'.$value["video_avatar"].'" alt="'.$value["video_title"].'" />
+                              <a href="./public/videos/'.$value["video_alias"].'/'.$value["video_linkvideo"].'" data-poptrox="vimeo,800x480" title=""><i class="fa fa-play"></i></a>
+                            </div>
+                          </div>';
+                  } 
                 }
               ?>              
             </div>

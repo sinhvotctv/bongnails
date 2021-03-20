@@ -7,8 +7,8 @@
             <div class="all-packages masonary2">
               <?php
                 foreach($menuiiData as $value){
-                  $linkDetailSevice;
-                  echo '<div class="col-md-4">
+                  if($value["menuii_id"] != 2){
+                    echo '<div class="col-md-4">
                           <div class="lemon-package style3">
                             <img src="./public/images/services/'.$value["menuii_alias"].'/'.$value["menuii_avatar"].'" alt="imgae" />
                             <div class="package-detail">
@@ -25,6 +25,7 @@
                             </div>
                           </div>
                         </div>';
+                  }
                 }
               ?>
             </div>

@@ -6,31 +6,23 @@
         <div class="col-md-12">
           <div class="title">
             <h2>FEEDBACK</h2>
-            <p>BÔNG NAILS : BY WOMEN - FOR WOMEN</p>
+            <p class="slogan"><?php echo $introduceData[0]["site_slogan"]?></p>
           </div>
         </div>
         <div class="col-md-offset-2 col-md-10">
           <div class="lemon-reviews-carousel">
-            <div class="review-slide">
-              <img src="http://placehold.it/370x370" alt="" />
-              <div class="review">
-                <i>Looking for a beauty</i>
-                <strong>Roseline Cynthia</strong>
-                <blockquote><i class="fa fa-quote-left"></i>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam.<i class="fa fa-quote-right"></i></blockquote>
-                <span>Founder, Maryland</span>
-              </div>
-            </div><!-- Review Slide -->
-            <div class="review-slide">
-              <img src="http://placehold.it/370x370" alt="" />
-              <div class="review">
-                <i>Looking for a beauty</i>
-                <strong>Doafel Niakroa</strong>
-                <blockquote><i class="fa fa-quote-left"></i>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh  aliquam erat volutpat. Ut wisi enim ad minim veniam.<i class="fa fa-quote-right"></i></blockquote>
-                <span>Founder, Cheshta</span>
-              </div>
-            </div><!-- Review Slide -->
-
-          </div><!-- Lemon Reviews Carousel -->
+            <?php
+              foreach($customerData as $customer){
+                echo '<div class="review-slide">
+                        <img src="./public/images/customers/'.$customer["customer_avatar"].'" alt="" />
+                        <div class="review">
+                          <strong>'.$customer["customer_name"].'</strong>
+                          <blockquote><i class="fa fa-quote-left"></i>'.$customer["customer_comment"].'<i class="fa fa-quote-right"></i></blockquote>
+                        </div>
+                      </div>';
+              }
+            ?> 
+          </div>
 
         </div>
       </div>
