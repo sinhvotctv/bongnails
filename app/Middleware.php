@@ -1,4 +1,5 @@
 <?php
+  require_once "./utils/send-mail.php";
   require_once "./utils/constants.php";
   require_once "./utils/function.php";
   require_once "./controllers/CommonController.php";

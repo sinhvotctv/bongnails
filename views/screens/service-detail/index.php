@@ -27,8 +27,8 @@
                 <span><i class="icon-icon4"></i></span>
                 <h1><?php echo $service["menuii_name"]?></h1>
               </div>
-              <div class="package-book">
-                <a class="booking-btn" href="#" title="">Book Now</a>
+              <div class="package-book button-show-booking-box">
+                <a class="booking-btn" href="#" title="">Đặt lịch ngay</a>
               </div>
             </div>
           </div>
@@ -55,7 +55,7 @@
                   ?>
                 </div>
               </div>
-              <div class="package-book"><a class="booking-btn" href="#" title="">Book Now</a></div>
+              <div class="package-book button-show-booking-box" ><a class="booking-btn" href="#" title="">Đặt lịch ngay</a></div>
             </div>
           </div>
         </div>

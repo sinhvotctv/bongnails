@@ -25,4 +25,16 @@
     $str = str_replace(" ","-",$str);
     return $str;
   }
+
+  function getCustomerCode($name,$phone){
+    if(isset($name) && isset($phone)){
+      $resultShortName = '';
+      $name = explode(" ", $name);
+      $resultShortPhone = substr($phone,-3,strlen($phone));
+      foreach($name as $value){
+        $resultShortName.=substr($value,0,1);
+      }
+      return $resultShortName.$resultShortPhone;
+    }
+  }
 ?>

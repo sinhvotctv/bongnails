@@ -56,6 +56,12 @@
           case "bai-viet":
             $this->controller = "BlogController";
             break;
+          case "send-mail":
+            $this->controller = "SendMailController";
+            break;
+          case "thank-you":
+            $this->controller = "ThankYouController";
+            break;
           default :
             $this->controller = "__404Controller";
             break;
@@ -81,6 +87,9 @@
             break;
           case "nail-box":
             $actionTmp = "ShowNailsBox";
+            break;
+          case "send-mail-customer":
+            $actionTmp = "ShowSendMailCustomer";
             break;
           default :
             $actionTmp = "Show__404";

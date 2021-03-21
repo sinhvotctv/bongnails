@@ -20,7 +20,7 @@
     <script src="./public/js/jquery.isotope.min.js"></script>
     <script src="./public/js/isotope-initialize.js"></script>
     <script src="./public/js/enscroll-0.5.2.min.js"></script>
-    <script src="./public/js/jquery.poptrox.min.js"></script>
+    <!-- <script src="./public/js/jquery.poptrox.min.js"></script> -->
     <script type="text/javascript" src="./public/js/jquery.scrolly.js"></script>
     <script src="./public/js/script.js" type="text/javascript"></script>
     <script type="text/javascript">

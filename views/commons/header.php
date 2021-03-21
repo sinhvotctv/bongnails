@@ -5,7 +5,7 @@
 					<li><i class="fa fa-envelope"></i><?php echo $introduceData[0]["site_email"]?></li>
 					<li><i class="fa fa-phone"></i><?php echo $introduceData[0]["site_phone"]?></li>
 				</ul>
-				<a class="header-book" href="#" title="">Đặt lịch ngay</a>
+				<a class="header-book button-show-booking-box" href="#" title="">Đặt lịch ngay</a>
 			</div>
 		</div>
 		<div class="menu-bar">

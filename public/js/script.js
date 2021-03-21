@@ -90,12 +90,12 @@ jQuery(document).ready(function() {
 
 
     /*=================== LightBox ===================*/  
-    $(function() {
-        var foo = $('.lightbox');
-        foo.poptrox({
-            usePopupCaption: true
-        });
-    });
+    // $(function() {
+    //     var foo = $('.lightbox');
+    //     foo.poptrox({
+    //         usePopupCaption: true
+    //     });
+    // });
 
 }); /*=== Document.Ready Ends Here ===*/
 
